@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BioAttendance</string>
+    <string name="drawwler_menu_add_attendance">Add Attendance</string>
+    <string name="drawwler_menu_enroll">Enroll Student</string>
+    <string name="drawwler_menu_match">Verify</string>
+    <string name="drawwler_menu_setting">Settings</string>
+    <string name="drawer_item_section_header">Advance</string>
+    <string name="network_enabled_msg">Looks Like You don\'t have Internet Connection Available.</string>
+    <string name="gps_enabled_msg">Please Enable GPS.</string>
+    <string name="email_sent_error">We are sorry for the inconvenience caused to you. Due To Error We can`t submit form right now.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="baseUrl">/BioAttendance/</string>
+    <string name="submit_attendance">AttendService?serviceRequest=AddAttendance</string>
+    <string name="enrollStudent">StudentService?serviceRequest=AddStudent</string>
+    <string name="getSubjectList">SubjectService?serviceRequest=GetSubjectList</string>
+    <string name="getStudentBySubjectID">StudentService?serviceRequest=GetStudentBySubjectID</string>
+</resources>
